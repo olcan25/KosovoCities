@@ -1,0 +1,27 @@
+{
+  "name": "kosovocities",
+  "version": "1.0.0",
+  "description": "Kosova Cities List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olcan25/KosovoCities.git"
+  },
+  "keywords": [
+    "Kosovo",
+    "Kosovo",
+    "Cities",
+    "Kosovo",
+    "List",
+    "Cities"
+  ],
+  "author": "Olcan Pinduk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olcan25/KosovoCities/issues"
+  },
+  "homepage": "https://github.com/olcan25/KosovoCities#readme"
+}
