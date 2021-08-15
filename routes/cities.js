@@ -6,7 +6,7 @@ var router = express.Router();
 router.get("/", function (req, res, next) {
   Cities.find()
     .then((todos) => {
-      res.json(todos);
+      res.send(200,todos);
     })
     .catch((err) => {
       res.json(err);

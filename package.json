@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "devmode": "set NODE_ENV=development | nodemon app.js --experimental-modules",
     "qamode": "set NODE_ENV=qa | nodemon app.js",
     "prodmode": "set NODE_ENV=prod | nodemon app.js "
