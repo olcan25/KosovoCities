@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "devmode": "set NODE_ENV=development | nodemon app.js --experimental-modules",
     "qamode": "set NODE_ENV=qa | nodemon app.js",
     "prodmode": "set NODE_ENV=prod | nodemon app.js "
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "dotenv": "^10.0.0",
     "express": "~4.16.1",
