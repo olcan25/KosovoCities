@@ -1,0 +1,1 @@
+mongodb+srv://olcan:OcN510.mZo@cluster0.jgez6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
