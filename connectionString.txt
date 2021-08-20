@@ -1,1 +1,6 @@
+
+cities
 mongodb+srv://olcan:OcN510.mZo@cluster0.jgez6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+feedback 
+mongodb+srv://olcan:OcN510.mZo@cluster0.gzdj8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

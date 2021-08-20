@@ -7,6 +7,7 @@ const db = require("./helper/db")();
 const cors = require("cors");
 
 var citiesRouter = require("./routes/cities");
+const feedbackRouter = require("./routes/feedback");
 
 var app = express();
 
@@ -21,7 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors());
-app.use("/", citiesRouter);
+app.use("/cities", citiesRouter);
+app.use("/feedback",feedbackRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
