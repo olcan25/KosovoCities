@@ -3,15 +3,14 @@ var express = require("express");
 var router = express.Router();
 
 /* Cities Listeleme Islemi Burada Yapilacak. */
-router.get("/", function (req, res, next) {
+router.get("/", (req, res, next) => {
   Cities.find()
     .then((cities) => {
-      res.json(cities);
+      res.status(200).json(cities);
     })
     .catch((err) => {
-      res.json(err);
+      res.status(500).json(err);
     });
 });
-
 
 module.exports = router;
